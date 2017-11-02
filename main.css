@@ -1,0 +1,137 @@
+
+
+body {
+    background-color: black;
+}
+  
+/************************
+JUMBOTRON
+************************/
+
+.jumbotron {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20%;
+}
+
+#title-name {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-size: 4.75rem;
+}
+
+.name-letter {
+    font-style: italic;
+    color: #ffff99;
+}
+
+#title-developer {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 0;
+}
+
+
+.dev-letters {
+    font-weight: 700;
+    color: #ffff99;
+}
+
+nav {
+  margin-top: 1.5%;    
+  display: flex;
+  justify-content: center;
+}
+
+.nav-com,
+.nav-resume, 
+.nav-git {
+    padding: 0 52.5px;
+    margin: 0 12px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#nav-com,
+#nav-git,
+#nav-resume {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 2.5%;
+    
+    
+}
+
+.nav-com {
+    color: #ffff99;
+}
+
+.nav-resume {
+    color: #666699;
+}
+
+.nav-git {
+    color: #ffff99;
+}
+
+.nav-colon-char {
+    color: white;
+}
+
+/************************
+FOOTER
+************************/
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-github {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-envelope-o {
+    background: #666699;
+    color: white;
+}
+
+footer {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: -25px;
+}
+
+#about-text {
+    text-align: justify;
+    margin: 0 10%;
+}
+
+#first-sentence {
+    color: #ffff99;
+    font-weight: 700;
+}
