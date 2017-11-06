@@ -2,6 +2,7 @@
 
 body {
     background-color: black;
+    
 }
   
 /************************
@@ -11,7 +12,7 @@ JUMBOTRON
 .jumbotron {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 20%;
+    margin-top: 100px;
 }
 
 #title-name {
@@ -134,4 +135,101 @@ footer {
 #first-sentence {
     color: #ffff99;
     font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    
+    #title-name {
+        font-size: 9rem;
+    }
+
+    #title-developer {
+        font-size: 5.8rem;
+    }
+    
+    .fa {
+        padding: 40px;
+        font-size: 35px;
+    }  
+    
+    li {
+        margin-left: 132.5px;
+    }
+     
+    #nav-row {
+        margin-top: 10px;
+        margin-right: 240px;
+    } 
+    
+    #about-text {
+        margin-right: 1%;
+        margin-left: 1%;
+        width: 750px;
+        font-size: 2.75rem;
+    }
+    
+    footer {
+        margin-top: -30px;
+    }
+    
+    .jumbotron {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    }
+    
+   
+}
+
+
+@media (min-width: 992px) {
+    #about-text {
+        margin-right: 12%;
+        margin-left: 12%; 
+        font-size: 2.5rem;
+    }
+    
+    li {
+        margin-left: 120px;
+    }
+     
+    #nav-row {
+        margin-right: 210px;
+    } 
+}
+
+
+@media (min-width: 1200px) {
+    
+    #title-name {
+        font-size: 10rem;
+    }
+    
+    .jumbotron {
+        margin-top: 40px;
+    }
+
+    #title-developer {
+        font-size: 6.4rem;
+    }
+    
+    .fa {
+        padding: 47.5px;
+        font-size: 42.5px;
+    } 
+    
+    li {
+        margin-left: 130px;
+    }
+    
+    #about-text {
+        margin-right: 16.5%;
+        margin-left: 16.5%; 
+        width: 775px;
+        font-size: 2.25rem;
+    }
+    
+    #nav-row {
+        margin-right: 215px;
+    } 
 }
