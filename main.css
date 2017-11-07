@@ -12,7 +12,7 @@ TOP-JUMBOTRON
 #top-jumbotron {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 #title-name {
@@ -149,7 +149,11 @@ BOTTOM-JUMBOTRON
 }
 
 #brag-text {
-    
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 #btn-1,
@@ -160,7 +164,32 @@ BOTTOM-JUMBOTRON
     white-space: normal;
     padding: 25px;
     width: 300px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: black;
+    color: #ffff99;
+    height: 150px;
+}
+
+    #btn-title-1,
+    #btn-title-2,
+    #btn-title-3
+    {
+        display: block;
+        font-weight: 700;
+        font-size: 1.25em;
+
+    }
+
+/************************
+BOTTOM-FOOTER
+************************/
+
+#bottom-footer {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 1.25em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
 }
 
 /************************
@@ -168,12 +197,12 @@ MEDIA QUERIES
 ************************/
 
 @media (min-width: 634px) {
-   #btn-1,
-    #btn-2,
-    #btn-3 {
-        margin-left: 10%;
-        margin-right: 10%;
+    
+    #top-jumbotron {
+    margin-top: 10px;
+        
     }
+
 }
 
 @media (min-width: 768px) {
@@ -217,6 +246,19 @@ MEDIA QUERIES
     background-color: black;
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
+        
+    }
+    
+    #brag-text {
+        margin: 15px 0;
+        font-size: 2.25em;
+    }
+    
+     #btn-1,
+    #btn-2,
+    #btn-3 {
+        margin-right: 10px;
+        margin-left: 10px;
     }
     
    
@@ -239,7 +281,7 @@ MEDIA QUERIES
      
     #nav-row {
         margin-right: 210px;
-    } 
+    }
 }
 
 
@@ -282,8 +324,17 @@ MEDIA QUERIES
     #btn-1,
     #btn-2,
     #btn-3 {
-        margin-left: 37.5%;
-        margin-right: 37.5%;
+    margin-bottom: 25px;
+    font-size: 1.7em;
+    white-space: normal;
+    padding: 25px;
+    width: 350px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: black;
+    color: #ffff99;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px
     }
-}
+
 }
